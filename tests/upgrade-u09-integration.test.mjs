@@ -56,7 +56,7 @@ const versionContext = {
   activeDatasetVersion: dataset.version,
   availableDatasetVersions: [dataset.version],
 };
-const openedAt = "2026-11-13T09:00:00+08:00";
+const openedAt = "2025-01-16T09:00:00+08:00";
 const baseEnv = {
   DEEPSEEK_ENABLED: "true",
   DEEPSEEK_API_KEY: "test-key-not-real",

@@ -23,7 +23,7 @@ const read = async (name) => JSON.parse(await readFile(new URL(`../data/${name}`
 const dataset = parseDataset(await read("flex.json"));
 const datasetVersion = dataset.version;
 const sourceId = "psi-69-flex-table-v1";
-const openedAt = "2026-11-13T09:00:00+08:00";
+const openedAt = "2025-01-16T09:00:00+08:00";
 
 const guideIds = [
   "burn-time-condition-differences",
@@ -435,7 +435,7 @@ test("dataset mismatch is reported without rebuilding stale facts", () => {
 
   const reversedTimes = openGuidedInvestigation(dataset, "missing-burning-rate", {
     openedAt,
-    updatedAt: "2026-11-13T08:00:00+08:00",
+    updatedAt: "2025-01-16T08:00:00+08:00",
   });
   assert.equal(reversedTimes.ok, false);
   assert.equal(reversedTimes.reason, "invalid-options");
@@ -450,7 +450,7 @@ test("dataset mismatch is reported without rebuilding stale facts", () => {
 });
 
 test("representative JSON export round-trips and the printable report keeps identity and limits", () => {
-  const generatedAt = "2026-11-13T10:00:00+08:00";
+  const generatedAt = "2025-01-16T10:00:00+08:00";
   const exported = expectOk(exportGuidedInvestigation(dataset, "burn-time-condition-differences", {
     notebookId: "guide-export-notebook",
     openedAt,
@@ -521,9 +521,9 @@ test("opening is deterministic with caller identity and safe without one", () =>
   const laterUpdated = expectOk(open("burn-time-condition-differences", {
     notebookId: "guide-later",
     openedAt,
-    updatedAt: "2026-11-13T09:30:00+08:00",
+    updatedAt: "2025-01-16T09:30:00+08:00",
   }));
-  assert.equal(laterUpdated.notebook.updatedAt, "2026-11-13T09:30:00+08:00");
+  assert.equal(laterUpdated.notebook.updatedAt, "2025-01-16T09:30:00+08:00");
   assert.equal(laterUpdated.notebook.steps[0].createdAt, openedAt);
 
   const generated = expectOk(openGuidedInvestigation(dataset, "visible-flame-extinction"));

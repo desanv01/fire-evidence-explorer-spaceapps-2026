@@ -7,7 +7,6 @@ export type RecordedExample = {
   question: string;
   runIds: readonly string[];
   model: { requested: string; returned: string | null; promptVersion: string };
-  recordedDate: string;
   datasetSha256: string;
   claims: readonly (Pick<Claim, "status" | "text" | "citationIds" | "measurements"> & {
     anchors: readonly { runId: string; fieldKey: string; locator: string }[];
@@ -22,7 +21,6 @@ export const recordedExamples: readonly RecordedExample[] = [
       "FLEX-001",
       "FLEX-004"
     ],
-    "recordedDate": "November 2026",
     "datasetSha256": "df399d7bfef9713add4ffed79c09948992eb7afe6c7670ab28dfce88b9b0477a",
     "model": {
       "requested": "deepseek-flash",

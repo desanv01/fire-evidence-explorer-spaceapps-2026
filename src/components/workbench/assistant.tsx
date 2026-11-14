@@ -243,7 +243,7 @@ function RecordedExamples({ recordedExample, showRecordedExample, datasetSha256,
       onClick={() => showRecordedExample(active === example ? undefined : example)}>{example.runIds.join(" and ")}</button>)}</div>
     {active && <>
       <h3>Recorded DeepSeek example</h3>
-      <p className="muted">{active.runIds.join(" · ")}<br />{active.model.returned ?? active.model.requested} · {active.recordedDate}</p>
+      <p className="muted">{active.runIds.join(" · ")}<br />{active.model.returned ?? active.model.requested}</p>
       <p className="user-message">{active.question}</p>
       {active.claims.map((claim, index) => <article className="claim" key={index}>
         <strong>{claimLabels[claim.status]}</strong><p>{claim.text}</p>

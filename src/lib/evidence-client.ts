@@ -26,7 +26,7 @@ const provenance = z.object({
   }),
   selection: z.object({
     rule: z.string(), runCount: count, fieldsPerRun: count, unknownFields: count,
-    reviewDate: z.string(), reviewMethod: z.string(),
+    reviewDate: z.string().optional(), reviewMethod: z.string(),
   }),
   interpretationReference: z.object({
     reportNumber: z.string(), url: webUrl,
