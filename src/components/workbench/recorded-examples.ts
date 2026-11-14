@@ -22,7 +22,7 @@ export const recordedExamples: readonly RecordedExample[] = [
       "FLEX-001",
       "FLEX-004"
     ],
-    "recordedDate": "2026-11-12",
+    "recordedDate": "November 2026",
     "datasetSha256": "df399d7bfef9713add4ffed79c09948992eb7afe6c7670ab28dfce88b9b0477a",
     "model": {
       "requested": "deepseek-flash",

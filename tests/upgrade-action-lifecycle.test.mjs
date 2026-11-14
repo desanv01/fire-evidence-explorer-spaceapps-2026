@@ -21,7 +21,7 @@ const datasetBytes = await readFile(new URL("../data/flex.json", import.meta.url
 const dataset = parseDataset(JSON.parse(datasetBytes.toString("utf8")));
 const datasetVersion = dataset.version;
 const datasetSha256 = createHash("sha256").update(datasetBytes).digest("hex");
-const fixedNow = "2026-11-12T22:30:00+08:00";
+const fixedNow = "2025-01-15T22:30:00+08:00";
 
 function field(runId, fieldKey) {
   const run = dataset.runs.find(({ id }) => id === runId);

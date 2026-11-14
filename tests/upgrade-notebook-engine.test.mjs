@@ -28,8 +28,8 @@ const dataset = parseDataset(await read("flex.json"));
 const datasetVersion = dataset.version;
 const historicalVersion = "flex-psi69-v5-table-v1-subset-0";
 const sourceId = "psi-69-flex-table-v1";
-const createdAt = "2026-11-12T19:00:00+08:00";
-const updatedAt = "2026-11-12T19:30:00+08:00";
+const createdAt = "2025-01-15T19:00:00+08:00";
+const updatedAt = "2025-01-15T19:30:00+08:00";
 const paddedQuestion = "  What was the burn time?  ";
 
 const versionContext = {
@@ -585,7 +585,7 @@ test("returns structured storage failures and preserves prior data", () => {
   assert.ok(invalidSave.issues.length > 0);
   assert.equal(quotaStorage.values.get(key), prior);
 
-  const changed = { ...notebook, title: "Changed title", updatedAt: "2026-11-12T20:00:00+08:00" };
+  const changed = { ...notebook, title: "Changed title", updatedAt: "2025-01-15T20:00:00+08:00" };
   const quotaFailure = saveNotebookToStorage(quotaStorage, changed);
   assert.equal(quotaFailure.ok, false);
   assert.equal(quotaFailure.reason, "quota-exceeded");

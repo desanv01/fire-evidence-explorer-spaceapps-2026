@@ -39,8 +39,8 @@ const read = async (name) => JSON.parse(await readFile(new URL(`../data/${name}`
 const dataset = parseDataset(await read("flex.json"));
 const datasetVersion = dataset.version;
 const sourceId = "psi-69-flex-table-v1";
-const createdAt = "2026-11-12T19:00:00+08:00";
-const updatedAt = "2026-11-12T19:30:00+08:00";
+const createdAt = "2025-01-15T19:00:00+08:00";
+const updatedAt = "2025-01-15T19:30:00+08:00";
 
 const reference = (runId, fieldKey) => ({ datasetVersion, runId, fieldKey, sourceId });
 

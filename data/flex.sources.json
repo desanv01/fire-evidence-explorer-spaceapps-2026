@@ -24,7 +24,7 @@
     "runCount": 31,
     "fieldsPerRun": 11,
     "unknownFields": 30,
-    "reviewDate": "2026-11-11",
+    "reviewDate": "2026-11",
     "reviewMethod": "Checked PSI rows against NASA Technical Publication Table IX for identifiers, fuels, numeric fields, missing markers and end categories"
   },
   "interpretationReference": {
