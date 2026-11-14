@@ -1,0 +1,3611 @@
+{
+  "version": "flex-psi69-v5-table-v1-subset-1",
+  "sources": [
+    {
+      "id": "psi-69-flex-table-v1",
+      "title": "NASA PSI Flame Extinguishment Experiment (FLEX) Experimental Table",
+      "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69",
+      "version": "Investigation 5, CSV file 1",
+      "license": "CC0-1.0",
+      "doi": "10.60555/mbq8-0451"
+    }
+  ],
+  "runs": [
+    {
+      "id": "FLEX-001",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 2, column E (Fuel), FLEX Test #1 (20CAL08)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 757.7,
+          "unit": "mmHg",
+          "original": "757.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 2, column F (Ambient pressure; mmHg), FLEX Test #1 (20CAL08)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.21,
+          "unit": "mole fraction",
+          "original": "0.21",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 2, column G (O initial ambient composition; mole fraction), FLEX Test #1 (20CAL08)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.79,
+          "unit": "mole fraction",
+          "original": "0.79",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 2, column H (N initial ambient composition; mole fraction), FLEX Test #1 (20CAL08)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 2, column I (CO initial ambient composition; mole fraction), FLEX Test #1 (20CAL08)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 2, column J (He initial ambient composition; mole fraction), FLEX Test #1 (20CAL08)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 1.69,
+          "unit": "mm",
+          "original": "1.69",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 2, column K (Droplet initial diameter; mm), FLEX Test #1 (20CAL08)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": 0.89,
+          "unit": "mm",
+          "original": "0.89",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 2, column L (Visible flame extinction diameter; mm), FLEX Test #1 (20CAL08)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.52,
+          "unit": "mm²/s",
+          "original": "0.52",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 2, column M (Burning rate; mm), FLEX Test #1 (20CAL08)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 4.3,
+          "unit": "s",
+          "original": "4.3",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 2, column N (Burn time; s), FLEX Test #1 (20CAL08)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Disruption",
+          "unit": null,
+          "original": "Disruption",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 2, column O (Test end), FLEX Test #1 (20CAL08)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-002",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 3, column E (Fuel), FLEX Test #2 (20CAL10)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 762.0,
+          "unit": "mmHg",
+          "original": "762",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 3, column F (Ambient pressure; mmHg), FLEX Test #2 (20CAL10)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.21,
+          "unit": "mole fraction",
+          "original": "0.21",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 3, column G (O initial ambient composition; mole fraction), FLEX Test #2 (20CAL10)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.79,
+          "unit": "mole fraction",
+          "original": "0.79",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 3, column H (N initial ambient composition; mole fraction), FLEX Test #2 (20CAL10)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 3, column I (CO initial ambient composition; mole fraction), FLEX Test #2 (20CAL10)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 3, column J (He initial ambient composition; mole fraction), FLEX Test #2 (20CAL10)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 1.86,
+          "unit": "mm",
+          "original": "1.86",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 3, column K (Droplet initial diameter; mm), FLEX Test #2 (20CAL10)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": 0.94,
+          "unit": "mm",
+          "original": "0.94",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 3, column L (Visible flame extinction diameter; mm), FLEX Test #2 (20CAL10)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.6,
+          "unit": "mm²/s",
+          "original": "0.6",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 3, column M (Burning rate; mm), FLEX Test #2 (20CAL10)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 5.0,
+          "unit": "s",
+          "original": "5",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 3, column N (Burn time; s), FLEX Test #2 (20CAL10)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Extinction",
+          "unit": null,
+          "original": "Extinction",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 3, column O (Test end), FLEX Test #2 (20CAL10)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-003",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 4, column E (Fuel), FLEX Test #3 (20CAL12)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 764.2,
+          "unit": "mmHg",
+          "original": "764.2",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 4, column F (Ambient pressure; mmHg), FLEX Test #3 (20CAL12)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.21,
+          "unit": "mole fraction",
+          "original": "0.21",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 4, column G (O initial ambient composition; mole fraction), FLEX Test #3 (20CAL12)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.79,
+          "unit": "mole fraction",
+          "original": "0.79",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 4, column H (N initial ambient composition; mole fraction), FLEX Test #3 (20CAL12)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 4, column I (CO initial ambient composition; mole fraction), FLEX Test #3 (20CAL12)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 4, column J (He initial ambient composition; mole fraction), FLEX Test #3 (20CAL12)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 1.61,
+          "unit": "mm",
+          "original": "1.61",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 4, column K (Droplet initial diameter; mm), FLEX Test #3 (20CAL12)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": 0.92,
+          "unit": "mm",
+          "original": "0.92",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 4, column L (Visible flame extinction diameter; mm), FLEX Test #3 (20CAL12)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.58,
+          "unit": "mm²/s",
+          "original": "0.58",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 4, column M (Burning rate; mm), FLEX Test #3 (20CAL12)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 3.2,
+          "unit": "s",
+          "original": "3.2",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 4, column N (Burn time; s), FLEX Test #3 (20CAL12)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Extinction",
+          "unit": null,
+          "original": "Extinction",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 4, column O (Test end), FLEX Test #3 (20CAL12)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-004",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 5, column E (Fuel), FLEX Test #4 (30CAL02)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 760.0,
+          "unit": "mmHg",
+          "original": "760",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 5, column F (Ambient pressure; mmHg), FLEX Test #4 (30CAL02)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.21,
+          "unit": "mole fraction",
+          "original": "0.21",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 5, column G (O initial ambient composition; mole fraction), FLEX Test #4 (30CAL02)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.79,
+          "unit": "mole fraction",
+          "original": "0.79",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 5, column H (N initial ambient composition; mole fraction), FLEX Test #4 (30CAL02)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 5, column I (CO initial ambient composition; mole fraction), FLEX Test #4 (30CAL02)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 5, column J (He initial ambient composition; mole fraction), FLEX Test #4 (30CAL02)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 2.06,
+          "unit": "mm",
+          "original": "2.06",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 5, column K (Droplet initial diameter; mm), FLEX Test #4 (30CAL02)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 5, column L (Visible flame extinction diameter; mm), FLEX Test #4 (30CAL02)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.6,
+          "unit": "mm²/s",
+          "original": "0.6",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 5, column M (Burning rate; mm), FLEX Test #4 (30CAL02)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 7.64,
+          "unit": "s",
+          "original": "7.64",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 5, column N (Burn time; s), FLEX Test #4 (30CAL02)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Extinction",
+          "unit": null,
+          "original": "Extinction",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 5, column O (Test end), FLEX Test #4 (30CAL02)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-005",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 6, column E (Fuel), FLEX Test #5 (30CAL03)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 760.0,
+          "unit": "mmHg",
+          "original": "760",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 6, column F (Ambient pressure; mmHg), FLEX Test #5 (30CAL03)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.21,
+          "unit": "mole fraction",
+          "original": "0.21",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 6, column G (O initial ambient composition; mole fraction), FLEX Test #5 (30CAL03)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.79,
+          "unit": "mole fraction",
+          "original": "0.79",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 6, column H (N initial ambient composition; mole fraction), FLEX Test #5 (30CAL03)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 6, column I (CO initial ambient composition; mole fraction), FLEX Test #5 (30CAL03)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 6, column J (He initial ambient composition; mole fraction), FLEX Test #5 (30CAL03)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 1.92,
+          "unit": "mm",
+          "original": "1.92",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 6, column K (Droplet initial diameter; mm), FLEX Test #5 (30CAL03)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": 0.81,
+          "unit": "mm",
+          "original": "0.81",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 6, column L (Visible flame extinction diameter; mm), FLEX Test #5 (30CAL03)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.48,
+          "unit": "mm²/s",
+          "original": "0.48",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 6, column M (Burning rate; mm), FLEX Test #5 (30CAL03)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 6.34,
+          "unit": "s",
+          "original": "6.34",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 6, column N (Burn time; s), FLEX Test #5 (30CAL03)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Extinction",
+          "unit": null,
+          "original": "Extinction",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 6, column O (Test end), FLEX Test #5 (30CAL03)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-006",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 7, column E (Fuel), FLEX Test #6 (40CAL01)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 760.0,
+          "unit": "mmHg",
+          "original": "760",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 7, column F (Ambient pressure; mmHg), FLEX Test #6 (40CAL01)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.21,
+          "unit": "mole fraction",
+          "original": "0.21",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 7, column G (O initial ambient composition; mole fraction), FLEX Test #6 (40CAL01)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.79,
+          "unit": "mole fraction",
+          "original": "0.79",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 7, column H (N initial ambient composition; mole fraction), FLEX Test #6 (40CAL01)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 7, column I (CO initial ambient composition; mole fraction), FLEX Test #6 (40CAL01)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 7, column J (He initial ambient composition; mole fraction), FLEX Test #6 (40CAL01)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 2.54,
+          "unit": "mm",
+          "original": "2.54",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 7, column K (Droplet initial diameter; mm), FLEX Test #6 (40CAL01)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": 1.53,
+          "unit": "mm",
+          "original": "1.53",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 7, column L (Visible flame extinction diameter; mm), FLEX Test #6 (40CAL01)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.51,
+          "unit": "mm²/s",
+          "original": "0.51",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 7, column M (Burning rate; mm), FLEX Test #6 (40CAL01)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 9.6,
+          "unit": "s",
+          "original": "9.6",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 7, column N (Burn time; s), FLEX Test #6 (40CAL01)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Extinction",
+          "unit": null,
+          "original": "Extinction",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 7, column O (Test end), FLEX Test #6 (40CAL01)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-007",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Heptane",
+          "unit": null,
+          "original": "Heptane",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 8, column E (Fuel), FLEX Test #7 (20CAL13)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 761.3,
+          "unit": "mmHg",
+          "original": "761.3",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 8, column F (Ambient pressure; mmHg), FLEX Test #7 (20CAL13)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.21,
+          "unit": "mole fraction",
+          "original": "0.21",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 8, column G (O initial ambient composition; mole fraction), FLEX Test #7 (20CAL13)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.79,
+          "unit": "mole fraction",
+          "original": "0.79",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 8, column H (N initial ambient composition; mole fraction), FLEX Test #7 (20CAL13)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 8, column I (CO initial ambient composition; mole fraction), FLEX Test #7 (20CAL13)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 8, column J (He initial ambient composition; mole fraction), FLEX Test #7 (20CAL13)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 1.87,
+          "unit": "mm",
+          "original": "1.87",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 8, column K (Droplet initial diameter; mm), FLEX Test #7 (20CAL13)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 8, column L (Visible flame extinction diameter; mm), FLEX Test #7 (20CAL13)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.67,
+          "unit": "mm²/s",
+          "original": "0.67",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 8, column M (Burning rate; mm), FLEX Test #7 (20CAL13)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 5.3,
+          "unit": "s",
+          "original": "5.3",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 8, column N (Burn time; s), FLEX Test #7 (20CAL13)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Disruption",
+          "unit": null,
+          "original": "Disruption",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 8, column O (Test end), FLEX Test #7 (20CAL13)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-008",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Heptane",
+          "unit": null,
+          "original": "Heptane",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 9, column E (Fuel), FLEX Test #8 (30CAL06)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 762.4,
+          "unit": "mmHg",
+          "original": "762.4",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 9, column F (Ambient pressure; mmHg), FLEX Test #8 (30CAL06)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.21,
+          "unit": "mole fraction",
+          "original": "0.21",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 9, column G (O initial ambient composition; mole fraction), FLEX Test #8 (30CAL06)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.79,
+          "unit": "mole fraction",
+          "original": "0.79",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 9, column H (N initial ambient composition; mole fraction), FLEX Test #8 (30CAL06)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 9, column I (CO initial ambient composition; mole fraction), FLEX Test #8 (30CAL06)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 9, column J (He initial ambient composition; mole fraction), FLEX Test #8 (30CAL06)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 2.95,
+          "unit": "mm",
+          "original": "2.95",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 9, column K (Droplet initial diameter; mm), FLEX Test #8 (30CAL06)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 9, column L (Visible flame extinction diameter; mm), FLEX Test #8 (30CAL06)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.79,
+          "unit": "mm²/s",
+          "original": "0.79",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 9, column M (Burning rate; mm), FLEX Test #8 (30CAL06)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 14.8,
+          "unit": "s",
+          "original": "14.8",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 9, column N (Burn time; s), FLEX Test #8 (30CAL06)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Disruption",
+          "unit": null,
+          "original": "Disruption",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 9, column O (Test end), FLEX Test #8 (30CAL06)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-009",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Heptane",
+          "unit": null,
+          "original": "Heptane",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 10, column E (Fuel), FLEX Test #9 (30CAL07)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 760.0,
+          "unit": "mmHg",
+          "original": "760",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 10, column F (Ambient pressure; mmHg), FLEX Test #9 (30CAL07)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.21,
+          "unit": "mole fraction",
+          "original": "0.21",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 10, column G (O initial ambient composition; mole fraction), FLEX Test #9 (30CAL07)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.79,
+          "unit": "mole fraction",
+          "original": "0.79",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 10, column H (N initial ambient composition; mole fraction), FLEX Test #9 (30CAL07)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 10, column I (CO initial ambient composition; mole fraction), FLEX Test #9 (30CAL07)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 10, column J (He initial ambient composition; mole fraction), FLEX Test #9 (30CAL07)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 10, column K (Droplet initial diameter; mm), FLEX Test #9 (30CAL07)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 10, column L (Visible flame extinction diameter; mm), FLEX Test #9 (30CAL07)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm²/s",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 10, column M (Burning rate; mm), FLEX Test #9 (30CAL07)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": null,
+          "unit": "s",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 10, column N (Burn time; s), FLEX Test #9 (30CAL07)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Disruption",
+          "unit": null,
+          "original": "Disruption",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 10, column O (Test end), FLEX Test #9 (30CAL07)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-010",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 11, column E (Fuel), FLEX Test #10 (256F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 2319.7,
+          "unit": "mmHg",
+          "original": "2319.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 11, column F (Ambient pressure; mmHg), FLEX Test #10 (256F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.21,
+          "unit": "mole fraction",
+          "original": "0.21",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 11, column G (O initial ambient composition; mole fraction), FLEX Test #10 (256F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.09,
+          "unit": "mole fraction",
+          "original": "0.09",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 11, column H (N initial ambient composition; mole fraction), FLEX Test #10 (256F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.7,
+          "unit": "mole fraction",
+          "original": "0.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 11, column I (CO initial ambient composition; mole fraction), FLEX Test #10 (256F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 11, column J (He initial ambient composition; mole fraction), FLEX Test #10 (256F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 3.86,
+          "unit": "mm",
+          "original": "3.86",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 11, column K (Droplet initial diameter; mm), FLEX Test #10 (256F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 11, column L (Visible flame extinction diameter; mm), FLEX Test #10 (256F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.37,
+          "unit": "mm²/s",
+          "original": "0.37",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 11, column M (Burning rate; mm), FLEX Test #10 (256F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 13.6,
+          "unit": "s",
+          "original": "13.6",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 11, column N (Burn time; s), FLEX Test #10 (256F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Extinction",
+          "unit": null,
+          "original": "Extinction",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 11, column O (Test end), FLEX Test #10 (256F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-011",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 12, column E (Fuel), FLEX Test #11 (256R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 2318.8,
+          "unit": "mmHg",
+          "original": "2318.8",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 12, column F (Ambient pressure; mmHg), FLEX Test #11 (256R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.21,
+          "unit": "mole fraction",
+          "original": "0.21",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 12, column G (O initial ambient composition; mole fraction), FLEX Test #11 (256R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.09,
+          "unit": "mole fraction",
+          "original": "0.09",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 12, column H (N initial ambient composition; mole fraction), FLEX Test #11 (256R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.7,
+          "unit": "mole fraction",
+          "original": "0.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 12, column I (CO initial ambient composition; mole fraction), FLEX Test #11 (256R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 12, column J (He initial ambient composition; mole fraction), FLEX Test #11 (256R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 3.03,
+          "unit": "mm",
+          "original": "3.03",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 12, column K (Droplet initial diameter; mm), FLEX Test #11 (256R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 12, column L (Visible flame extinction diameter; mm), FLEX Test #11 (256R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.4,
+          "unit": "mm²/s",
+          "original": "0.4",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 12, column M (Burning rate; mm), FLEX Test #11 (256R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 16.5,
+          "unit": "s",
+          "original": "16.5",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 12, column N (Burn time; s), FLEX Test #11 (256R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Extinction",
+          "unit": null,
+          "original": "Extinction",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 12, column O (Test end), FLEX Test #11 (256R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-012",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Heptane",
+          "unit": null,
+          "original": "Heptane",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 13, column E (Fuel), FLEX Test #12 (264F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 2319.9,
+          "unit": "mmHg",
+          "original": "2319.9",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 13, column F (Ambient pressure; mmHg), FLEX Test #12 (264F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.21,
+          "unit": "mole fraction",
+          "original": "0.21",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 13, column G (O initial ambient composition; mole fraction), FLEX Test #12 (264F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.09,
+          "unit": "mole fraction",
+          "original": "0.09",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 13, column H (N initial ambient composition; mole fraction), FLEX Test #12 (264F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.7,
+          "unit": "mole fraction",
+          "original": "0.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 13, column I (CO initial ambient composition; mole fraction), FLEX Test #12 (264F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 13, column J (He initial ambient composition; mole fraction), FLEX Test #12 (264F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 2.74,
+          "unit": "mm",
+          "original": "2.74",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 13, column K (Droplet initial diameter; mm), FLEX Test #12 (264F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 13, column L (Visible flame extinction diameter; mm), FLEX Test #12 (264F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm²/s",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 13, column M (Burning rate; mm), FLEX Test #12 (264F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": null,
+          "unit": "s",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 13, column N (Burn time; s), FLEX Test #12 (264F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Disruption",
+          "unit": null,
+          "original": "Disruption",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 13, column O (Test end), FLEX Test #12 (264F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-013",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 14, column E (Fuel), FLEX Test #13 (256R002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 2074.2,
+          "unit": "mmHg",
+          "original": "2074.2",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 14, column F (Ambient pressure; mmHg), FLEX Test #13 (256R002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.21,
+          "unit": "mole fraction",
+          "original": "0.21",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 14, column G (O initial ambient composition; mole fraction), FLEX Test #13 (256R002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.09,
+          "unit": "mole fraction",
+          "original": "0.09",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 14, column H (N initial ambient composition; mole fraction), FLEX Test #13 (256R002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.7,
+          "unit": "mole fraction",
+          "original": "0.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 14, column I (CO initial ambient composition; mole fraction), FLEX Test #13 (256R002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 14, column J (He initial ambient composition; mole fraction), FLEX Test #13 (256R002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 2.59,
+          "unit": "mm",
+          "original": "2.59",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 14, column K (Droplet initial diameter; mm), FLEX Test #13 (256R002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 14, column L (Visible flame extinction diameter; mm), FLEX Test #13 (256R002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.49,
+          "unit": "mm²/s",
+          "original": "0.49",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 14, column M (Burning rate; mm), FLEX Test #13 (256R002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 10.8,
+          "unit": "s",
+          "original": "10.8",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 14, column N (Burn time; s), FLEX Test #13 (256R002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Extinction",
+          "unit": null,
+          "original": "Extinction",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 14, column O (Test end), FLEX Test #13 (256R002)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-014",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 15, column E (Fuel), FLEX Test #14 (256F007)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 2055.6,
+          "unit": "mmHg",
+          "original": "2055.6",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 15, column F (Ambient pressure; mmHg), FLEX Test #14 (256F007)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.21,
+          "unit": "mole fraction",
+          "original": "0.21",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 15, column G (O initial ambient composition; mole fraction), FLEX Test #14 (256F007)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.09,
+          "unit": "mole fraction",
+          "original": "0.09",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 15, column H (N initial ambient composition; mole fraction), FLEX Test #14 (256F007)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.7,
+          "unit": "mole fraction",
+          "original": "0.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 15, column I (CO initial ambient composition; mole fraction), FLEX Test #14 (256F007)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 15, column J (He initial ambient composition; mole fraction), FLEX Test #14 (256F007)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 3.7,
+          "unit": "mm",
+          "original": "3.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 15, column K (Droplet initial diameter; mm), FLEX Test #14 (256F007)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 15, column L (Visible flame extinction diameter; mm), FLEX Test #14 (256F007)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm²/s",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 15, column M (Burning rate; mm), FLEX Test #14 (256F007)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 11.3,
+          "unit": "s",
+          "original": "11.3",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 15, column N (Burn time; s), FLEX Test #14 (256F007)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Extinction",
+          "unit": null,
+          "original": "Extinction",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 15, column O (Test end), FLEX Test #14 (256F007)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-015",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 16, column E (Fuel), FLEX Test #15 (256F008)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 2066.6,
+          "unit": "mmHg",
+          "original": "2066.6",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 16, column F (Ambient pressure; mmHg), FLEX Test #15 (256F008)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.21,
+          "unit": "mole fraction",
+          "original": "0.21",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 16, column G (O initial ambient composition; mole fraction), FLEX Test #15 (256F008)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.09,
+          "unit": "mole fraction",
+          "original": "0.09",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 16, column H (N initial ambient composition; mole fraction), FLEX Test #15 (256F008)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.7,
+          "unit": "mole fraction",
+          "original": "0.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 16, column I (CO initial ambient composition; mole fraction), FLEX Test #15 (256F008)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 16, column J (He initial ambient composition; mole fraction), FLEX Test #15 (256F008)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 4.42,
+          "unit": "mm",
+          "original": "4.42",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 16, column K (Droplet initial diameter; mm), FLEX Test #15 (256F008)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 16, column L (Visible flame extinction diameter; mm), FLEX Test #15 (256F008)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm²/s",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 16, column M (Burning rate; mm), FLEX Test #15 (256F008)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 23.1,
+          "unit": "s",
+          "original": "23.1",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 16, column N (Burn time; s), FLEX Test #15 (256F008)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Extinction",
+          "unit": null,
+          "original": "Extinction",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 16, column O (Test end), FLEX Test #15 (256F008)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-016",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 17, column E (Fuel), FLEX Test #16 (256F009)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 2072.1,
+          "unit": "mmHg",
+          "original": "2072.1",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 17, column F (Ambient pressure; mmHg), FLEX Test #16 (256F009)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.21,
+          "unit": "mole fraction",
+          "original": "0.21",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 17, column G (O initial ambient composition; mole fraction), FLEX Test #16 (256F009)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.09,
+          "unit": "mole fraction",
+          "original": "0.09",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 17, column H (N initial ambient composition; mole fraction), FLEX Test #16 (256F009)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.7,
+          "unit": "mole fraction",
+          "original": "0.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 17, column I (CO initial ambient composition; mole fraction), FLEX Test #16 (256F009)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 17, column J (He initial ambient composition; mole fraction), FLEX Test #16 (256F009)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 1.66,
+          "unit": "mm",
+          "original": "1.66",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 17, column K (Droplet initial diameter; mm), FLEX Test #16 (256F009)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": 1.0,
+          "unit": "mm",
+          "original": "1",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 17, column L (Visible flame extinction diameter; mm), FLEX Test #16 (256F009)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.53,
+          "unit": "mm²/s",
+          "original": "0.53",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 17, column M (Burning rate; mm), FLEX Test #16 (256F009)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 3.4,
+          "unit": "s",
+          "original": "3.4",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 17, column N (Burn time; s), FLEX Test #16 (256F009)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Extinction",
+          "unit": null,
+          "original": "Extinction",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 17, column O (Test end), FLEX Test #16 (256F009)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-017",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 18, column E (Fuel), FLEX Test #17 (240R003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 1545.7,
+          "unit": "mmHg",
+          "original": "1545.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 18, column F (Ambient pressure; mmHg), FLEX Test #17 (240R003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.21,
+          "unit": "mole fraction",
+          "original": "0.21",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 18, column G (O initial ambient composition; mole fraction), FLEX Test #17 (240R003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.09,
+          "unit": "mole fraction",
+          "original": "0.09",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 18, column H (N initial ambient composition; mole fraction), FLEX Test #17 (240R003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.7,
+          "unit": "mole fraction",
+          "original": "0.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 18, column I (CO initial ambient composition; mole fraction), FLEX Test #17 (240R003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 18, column J (He initial ambient composition; mole fraction), FLEX Test #17 (240R003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 2.67,
+          "unit": "mm",
+          "original": "2.67",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 18, column K (Droplet initial diameter; mm), FLEX Test #17 (240R003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 18, column L (Visible flame extinction diameter; mm), FLEX Test #17 (240R003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm²/s",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 18, column M (Burning rate; mm), FLEX Test #17 (240R003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 2.4,
+          "unit": "s",
+          "original": "2.4",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 18, column N (Burn time; s), FLEX Test #17 (240R003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Disruption",
+          "unit": null,
+          "original": "Disruption",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 18, column O (Test end), FLEX Test #17 (240R003)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-018",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Heptane",
+          "unit": null,
+          "original": "Heptane",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 19, column E (Fuel), FLEX Test #18 (248F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 1553.8,
+          "unit": "mmHg",
+          "original": "1553.8",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 19, column F (Ambient pressure; mmHg), FLEX Test #18 (248F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.21,
+          "unit": "mole fraction",
+          "original": "0.21",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 19, column G (O initial ambient composition; mole fraction), FLEX Test #18 (248F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.09,
+          "unit": "mole fraction",
+          "original": "0.09",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 19, column H (N initial ambient composition; mole fraction), FLEX Test #18 (248F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.7,
+          "unit": "mole fraction",
+          "original": "0.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 19, column I (CO initial ambient composition; mole fraction), FLEX Test #18 (248F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 19, column J (He initial ambient composition; mole fraction), FLEX Test #18 (248F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 2.74,
+          "unit": "mm",
+          "original": "2.74",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 19, column K (Droplet initial diameter; mm), FLEX Test #18 (248F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": 1.77,
+          "unit": "mm",
+          "original": "1.77",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 19, column L (Visible flame extinction diameter; mm), FLEX Test #18 (248F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.61,
+          "unit": "mm²/s",
+          "original": "0.61",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 19, column M (Burning rate; mm), FLEX Test #18 (248F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 8.1,
+          "unit": "s",
+          "original": "8.1",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 19, column N (Burn time; s), FLEX Test #18 (248F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Extinction",
+          "unit": null,
+          "original": "Extinction",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 19, column O (Test end), FLEX Test #18 (248F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-019",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Heptane",
+          "unit": null,
+          "original": "Heptane",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 20, column E (Fuel), FLEX Test #19 (196F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 539.1,
+          "unit": "mmHg",
+          "original": "539.1",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 20, column F (Ambient pressure; mmHg), FLEX Test #19 (196F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.34,
+          "unit": "mole fraction",
+          "original": "0.34",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 20, column G (O initial ambient composition; mole fraction), FLEX Test #19 (196F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.66,
+          "unit": "mole fraction",
+          "original": "0.66",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 20, column H (N initial ambient composition; mole fraction), FLEX Test #19 (196F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 20, column I (CO initial ambient composition; mole fraction), FLEX Test #19 (196F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 20, column J (He initial ambient composition; mole fraction), FLEX Test #19 (196F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 3.39,
+          "unit": "mm",
+          "original": "3.39",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 20, column K (Droplet initial diameter; mm), FLEX Test #19 (196F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 20, column L (Visible flame extinction diameter; mm), FLEX Test #19 (196F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.9,
+          "unit": "mm²/s",
+          "original": "0.9",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 20, column M (Burning rate; mm), FLEX Test #19 (196F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 4.2,
+          "unit": "s",
+          "original": "4.2",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 20, column N (Burn time; s), FLEX Test #19 (196F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Disruption",
+          "unit": null,
+          "original": "Disruption",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 20, column O (Test end), FLEX Test #19 (196F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-020",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 21, column E (Fuel), FLEX Test #20 (192F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 539.5,
+          "unit": "mmHg",
+          "original": "539.5",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 21, column F (Ambient pressure; mmHg), FLEX Test #20 (192F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.34,
+          "unit": "mole fraction",
+          "original": "0.34",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 21, column G (O initial ambient composition; mole fraction), FLEX Test #20 (192F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.66,
+          "unit": "mole fraction",
+          "original": "0.66",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 21, column H (N initial ambient composition; mole fraction), FLEX Test #20 (192F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 21, column I (CO initial ambient composition; mole fraction), FLEX Test #20 (192F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 21, column J (He initial ambient composition; mole fraction), FLEX Test #20 (192F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 3.4,
+          "unit": "mm",
+          "original": "3.4",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 21, column K (Droplet initial diameter; mm), FLEX Test #20 (192F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": 1.56,
+          "unit": "mm",
+          "original": "1.56",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 21, column L (Visible flame extinction diameter; mm), FLEX Test #20 (192F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.53,
+          "unit": "mm²/s",
+          "original": "0.53",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 21, column M (Burning rate; mm), FLEX Test #20 (192F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 17.4,
+          "unit": "s",
+          "original": "17.4",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 21, column N (Burn time; s), FLEX Test #20 (192F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Completion",
+          "unit": null,
+          "original": "Completion",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 21, column O (Test end), FLEX Test #20 (192F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-021",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 22, column E (Fuel), FLEX Test #21 (192F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 540.6,
+          "unit": "mmHg",
+          "original": "540.6",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 22, column F (Ambient pressure; mmHg), FLEX Test #21 (192F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.34,
+          "unit": "mole fraction",
+          "original": "0.34",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 22, column G (O initial ambient composition; mole fraction), FLEX Test #21 (192F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.66,
+          "unit": "mole fraction",
+          "original": "0.66",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 22, column H (N initial ambient composition; mole fraction), FLEX Test #21 (192F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 22, column I (CO initial ambient composition; mole fraction), FLEX Test #21 (192F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 22, column J (He initial ambient composition; mole fraction), FLEX Test #21 (192F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 3.49,
+          "unit": "mm",
+          "original": "3.49",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 22, column K (Droplet initial diameter; mm), FLEX Test #21 (192F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": 0.95,
+          "unit": "mm",
+          "original": "0.95",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 22, column L (Visible flame extinction diameter; mm), FLEX Test #21 (192F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.66,
+          "unit": "mm²/s",
+          "original": "0.66",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 22, column M (Burning rate; mm), FLEX Test #21 (192F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 17.8,
+          "unit": "s",
+          "original": "17.8",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 22, column N (Burn time; s), FLEX Test #21 (192F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Disruption",
+          "unit": null,
+          "original": "Disruption",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 22, column O (Test end), FLEX Test #21 (192F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-022",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 23, column E (Fuel), FLEX Test #22 (192F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 540.5,
+          "unit": "mmHg",
+          "original": "540.5",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 23, column F (Ambient pressure; mmHg), FLEX Test #22 (192F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.34,
+          "unit": "mole fraction",
+          "original": "0.34",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 23, column G (O initial ambient composition; mole fraction), FLEX Test #22 (192F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.66,
+          "unit": "mole fraction",
+          "original": "0.66",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 23, column H (N initial ambient composition; mole fraction), FLEX Test #22 (192F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 23, column I (CO initial ambient composition; mole fraction), FLEX Test #22 (192F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 23, column J (He initial ambient composition; mole fraction), FLEX Test #22 (192F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 3.5,
+          "unit": "mm",
+          "original": "3.5",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 23, column K (Droplet initial diameter; mm), FLEX Test #22 (192F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 23, column L (Visible flame extinction diameter; mm), FLEX Test #22 (192F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.65,
+          "unit": "mm²/s",
+          "original": "0.65",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 23, column M (Burning rate; mm), FLEX Test #22 (192F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 18.2,
+          "unit": "s",
+          "original": "18.2",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 23, column N (Burn time; s), FLEX Test #22 (192F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Disruption",
+          "unit": null,
+          "original": "Disruption",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 23, column O (Test end), FLEX Test #22 (192F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-023",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Heptane",
+          "unit": null,
+          "original": "Heptane",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 24, column E (Fuel), FLEX Test #23 (196F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 541.8,
+          "unit": "mmHg",
+          "original": "541.8",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 24, column F (Ambient pressure; mmHg), FLEX Test #23 (196F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.34,
+          "unit": "mole fraction",
+          "original": "0.34",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 24, column G (O initial ambient composition; mole fraction), FLEX Test #23 (196F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.66,
+          "unit": "mole fraction",
+          "original": "0.66",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 24, column H (N initial ambient composition; mole fraction), FLEX Test #23 (196F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 24, column I (CO initial ambient composition; mole fraction), FLEX Test #23 (196F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 24, column J (He initial ambient composition; mole fraction), FLEX Test #23 (196F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 3.01,
+          "unit": "mm",
+          "original": "3.01",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 24, column K (Droplet initial diameter; mm), FLEX Test #23 (196F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 24, column L (Visible flame extinction diameter; mm), FLEX Test #23 (196F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.73,
+          "unit": "mm²/s",
+          "original": "0.73",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 24, column M (Burning rate; mm), FLEX Test #23 (196F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 13.1,
+          "unit": "s",
+          "original": "13.1",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 24, column N (Burn time; s), FLEX Test #23 (196F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Disruption",
+          "unit": null,
+          "original": "Disruption",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 24, column O (Test end), FLEX Test #23 (196F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-024",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Heptane",
+          "unit": null,
+          "original": "Heptane",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 25, column E (Fuel), FLEX Test #24 (196F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 542.8,
+          "unit": "mmHg",
+          "original": "542.8",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 25, column F (Ambient pressure; mmHg), FLEX Test #24 (196F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.34,
+          "unit": "mole fraction",
+          "original": "0.34",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 25, column G (O initial ambient composition; mole fraction), FLEX Test #24 (196F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.66,
+          "unit": "mole fraction",
+          "original": "0.66",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 25, column H (N initial ambient composition; mole fraction), FLEX Test #24 (196F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 25, column I (CO initial ambient composition; mole fraction), FLEX Test #24 (196F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 25, column J (He initial ambient composition; mole fraction), FLEX Test #24 (196F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": null,
+          "unit": "mm",
+          "original": "–",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 25, column K (Droplet initial diameter; mm), FLEX Test #24 (196F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 25, column L (Visible flame extinction diameter; mm), FLEX Test #24 (196F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm²/s",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 25, column M (Burning rate; mm), FLEX Test #24 (196F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": null,
+          "unit": "s",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 25, column N (Burn time; s), FLEX Test #24 (196F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Disruption",
+          "unit": null,
+          "original": "Disruption",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 25, column O (Test end), FLEX Test #24 (196F003)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-025",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 26, column E (Fuel), FLEX Test #25 (191R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 537.3,
+          "unit": "mmHg",
+          "original": "537.3",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 26, column F (Ambient pressure; mmHg), FLEX Test #25 (191R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.3,
+          "unit": "mole fraction",
+          "original": "0.3",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 26, column G (O initial ambient composition; mole fraction), FLEX Test #25 (191R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.7,
+          "unit": "mole fraction",
+          "original": "0.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 26, column H (N initial ambient composition; mole fraction), FLEX Test #25 (191R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 26, column I (CO initial ambient composition; mole fraction), FLEX Test #25 (191R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 26, column J (He initial ambient composition; mole fraction), FLEX Test #25 (191R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 2.6,
+          "unit": "mm",
+          "original": "2.6",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 26, column K (Droplet initial diameter; mm), FLEX Test #25 (191R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": 0.59,
+          "unit": "mm",
+          "original": "0.59",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 26, column L (Visible flame extinction diameter; mm), FLEX Test #25 (191R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.65,
+          "unit": "mm²/s",
+          "original": "0.65",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 26, column M (Burning rate; mm), FLEX Test #25 (191R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 10.3,
+          "unit": "s",
+          "original": "10.3",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 26, column N (Burn time; s), FLEX Test #25 (191R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Completion",
+          "unit": null,
+          "original": "Completion",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 26, column O (Test end), FLEX Test #25 (191R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-026",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 27, column E (Fuel), FLEX Test #26 (191F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 538.4,
+          "unit": "mmHg",
+          "original": "538.4",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 27, column F (Ambient pressure; mmHg), FLEX Test #26 (191F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.3,
+          "unit": "mole fraction",
+          "original": "0.3",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 27, column G (O initial ambient composition; mole fraction), FLEX Test #26 (191F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.7,
+          "unit": "mole fraction",
+          "original": "0.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 27, column H (N initial ambient composition; mole fraction), FLEX Test #26 (191F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 27, column I (CO initial ambient composition; mole fraction), FLEX Test #26 (191F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 27, column J (He initial ambient composition; mole fraction), FLEX Test #26 (191F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 3.63,
+          "unit": "mm",
+          "original": "3.63",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 27, column K (Droplet initial diameter; mm), FLEX Test #26 (191F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": 0.4,
+          "unit": "mm",
+          "original": "0.4",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 27, column L (Visible flame extinction diameter; mm), FLEX Test #26 (191F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.62,
+          "unit": "mm²/s",
+          "original": "0.62",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 27, column M (Burning rate; mm), FLEX Test #26 (191F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 22.2,
+          "unit": "s",
+          "original": "22.2",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 27, column N (Burn time; s), FLEX Test #26 (191F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Disruption",
+          "unit": null,
+          "original": "Disruption",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 27, column O (Test end), FLEX Test #26 (191F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-027",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Heptane",
+          "unit": null,
+          "original": "Heptane",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 28, column E (Fuel), FLEX Test #27 (195F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 540.7,
+          "unit": "mmHg",
+          "original": "540.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 28, column F (Ambient pressure; mmHg), FLEX Test #27 (195F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.3,
+          "unit": "mole fraction",
+          "original": "0.3",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 28, column G (O initial ambient composition; mole fraction), FLEX Test #27 (195F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.7,
+          "unit": "mole fraction",
+          "original": "0.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 28, column H (N initial ambient composition; mole fraction), FLEX Test #27 (195F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 28, column I (CO initial ambient composition; mole fraction), FLEX Test #27 (195F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 28, column J (He initial ambient composition; mole fraction), FLEX Test #27 (195F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 3.87,
+          "unit": "mm",
+          "original": "3.87",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 28, column K (Droplet initial diameter; mm), FLEX Test #27 (195F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 28, column L (Visible flame extinction diameter; mm), FLEX Test #27 (195F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.64,
+          "unit": "mm²/s",
+          "original": "0.64",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 28, column M (Burning rate; mm), FLEX Test #27 (195F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 23.8,
+          "unit": "s",
+          "original": "23.8",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 28, column N (Burn time; s), FLEX Test #27 (195F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Disruption",
+          "unit": null,
+          "original": "Disruption",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 28, column O (Test end), FLEX Test #27 (195F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-028",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Heptane",
+          "unit": null,
+          "original": "Heptane",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 29, column E (Fuel), FLEX Test #28 (195F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 539.7,
+          "unit": "mmHg",
+          "original": "539.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 29, column F (Ambient pressure; mmHg), FLEX Test #28 (195F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.3,
+          "unit": "mole fraction",
+          "original": "0.3",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 29, column G (O initial ambient composition; mole fraction), FLEX Test #28 (195F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.7,
+          "unit": "mole fraction",
+          "original": "0.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 29, column H (N initial ambient composition; mole fraction), FLEX Test #28 (195F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 29, column I (CO initial ambient composition; mole fraction), FLEX Test #28 (195F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 29, column J (He initial ambient composition; mole fraction), FLEX Test #28 (195F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 3.36,
+          "unit": "mm",
+          "original": "3.36",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 29, column K (Droplet initial diameter; mm), FLEX Test #28 (195F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 29, column L (Visible flame extinction diameter; mm), FLEX Test #28 (195F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.64,
+          "unit": "mm²/s",
+          "original": "0.64",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 29, column M (Burning rate; mm), FLEX Test #28 (195F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 17.3,
+          "unit": "s",
+          "original": "17.3",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 29, column N (Burn time; s), FLEX Test #28 (195F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Disruption",
+          "unit": null,
+          "original": "Disruption",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 29, column O (Test end), FLEX Test #28 (195F002)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-029",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 30, column E (Fuel), FLEX Test #29 (178R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 766.9,
+          "unit": "mmHg",
+          "original": "766.9",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 30, column F (Ambient pressure; mmHg), FLEX Test #29 (178R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.3,
+          "unit": "mole fraction",
+          "original": "0.3",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 30, column G (O initial ambient composition; mole fraction), FLEX Test #29 (178R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.7,
+          "unit": "mole fraction",
+          "original": "0.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 30, column H (N initial ambient composition; mole fraction), FLEX Test #29 (178R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 30, column I (CO initial ambient composition; mole fraction), FLEX Test #29 (178R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 30, column J (He initial ambient composition; mole fraction), FLEX Test #29 (178R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 2.57,
+          "unit": "mm",
+          "original": "2.57",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 30, column K (Droplet initial diameter; mm), FLEX Test #29 (178R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 30, column L (Visible flame extinction diameter; mm), FLEX Test #29 (178R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.74,
+          "unit": "mm²/s",
+          "original": "0.74",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 30, column M (Burning rate; mm), FLEX Test #29 (178R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 10.4,
+          "unit": "s",
+          "original": "10.4",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 30, column N (Burn time; s), FLEX Test #29 (178R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Completion",
+          "unit": null,
+          "original": "Completion",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 30, column O (Test end), FLEX Test #29 (178R001)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-030",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Methanol",
+          "unit": null,
+          "original": "Methanol",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 31, column E (Fuel), FLEX Test #30 (178F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 769.2,
+          "unit": "mmHg",
+          "original": "769.2",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 31, column F (Ambient pressure; mmHg), FLEX Test #30 (178F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.3,
+          "unit": "mole fraction",
+          "original": "0.3",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 31, column G (O initial ambient composition; mole fraction), FLEX Test #30 (178F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.7,
+          "unit": "mole fraction",
+          "original": "0.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 31, column H (N initial ambient composition; mole fraction), FLEX Test #30 (178F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 31, column I (CO initial ambient composition; mole fraction), FLEX Test #30 (178F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 31, column J (He initial ambient composition; mole fraction), FLEX Test #30 (178F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 3.26,
+          "unit": "mm",
+          "original": "3.26",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 31, column K (Droplet initial diameter; mm), FLEX Test #30 (178F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": 1.32,
+          "unit": "mm",
+          "original": "1.32",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 31, column L (Visible flame extinction diameter; mm), FLEX Test #30 (178F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.59,
+          "unit": "mm²/s",
+          "original": "0.59",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 31, column M (Burning rate; mm), FLEX Test #30 (178F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 15.6,
+          "unit": "s",
+          "original": "15.6",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 31, column N (Burn time; s), FLEX Test #30 (178F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Extinction",
+          "unit": null,
+          "original": "Extinction",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 31, column O (Test end), FLEX Test #30 (178F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    },
+    {
+      "id": "FLEX-031",
+      "investigation": "FLEX",
+      "fields": [
+        {
+          "key": "fuel",
+          "label": "Fuel",
+          "kind": "condition",
+          "value": "Heptane",
+          "unit": null,
+          "original": "Heptane",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 32, column E (Fuel), FLEX Test #31 (182F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "pressure",
+          "label": "Ambient pressure",
+          "kind": "condition",
+          "value": 770.5,
+          "unit": "mmHg",
+          "original": "770.5",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 32, column F (Ambient pressure; mmHg), FLEX Test #31 (182F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "oxygen",
+          "label": "Initial ambient oxygen",
+          "kind": "condition",
+          "value": 0.3,
+          "unit": "mole fraction",
+          "original": "0.3",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 32, column G (O initial ambient composition; mole fraction), FLEX Test #31 (182F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "nitrogen",
+          "label": "Initial ambient nitrogen",
+          "kind": "condition",
+          "value": 0.7,
+          "unit": "mole fraction",
+          "original": "0.7",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 32, column H (N initial ambient composition; mole fraction), FLEX Test #31 (182F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "carbon_dioxide",
+          "label": "Initial ambient carbon dioxide",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 32, column I (CO initial ambient composition; mole fraction), FLEX Test #31 (182F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "helium",
+          "label": "Initial ambient helium",
+          "kind": "condition",
+          "value": 0.0,
+          "unit": "mole fraction",
+          "original": "0",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 32, column J (He initial ambient composition; mole fraction), FLEX Test #31 (182F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "diameter",
+          "label": "Initial droplet diameter",
+          "kind": "condition",
+          "value": 3.39,
+          "unit": "mm",
+          "original": "3.39",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 32, column K (Droplet initial diameter; mm), FLEX Test #31 (182F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "extinction_diameter",
+          "label": "Droplet diameter at visible flame extinction",
+          "kind": "outcome",
+          "value": null,
+          "unit": "mm",
+          "original": null,
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 32, column L (Visible flame extinction diameter; mm), FLEX Test #31 (182F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burning_rate",
+          "label": "Burning rate",
+          "kind": "outcome",
+          "value": 0.85,
+          "unit": "mm²/s",
+          "original": "0.85",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 32, column M (Burning rate; mm), FLEX Test #31 (182F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "burn_time",
+          "label": "Burn time",
+          "kind": "outcome",
+          "value": 18.4,
+          "unit": "s",
+          "original": "18.4",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 32, column N (Burn time; s), FLEX Test #31 (182F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        },
+        {
+          "key": "test_end",
+          "label": "Test end",
+          "kind": "outcome",
+          "value": "Disruption",
+          "unit": null,
+          "original": "Disruption",
+          "locator": "PSI-69_Experimental table_FLEX.csv, CSV row 32, column O (Test end), FLEX Test #31 (182F001)",
+          "sourceId": "psi-69-flex-table-v1"
+        }
+      ]
+    }
+  ]
+}

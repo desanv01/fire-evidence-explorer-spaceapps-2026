@@ -1,0 +1,46 @@
+{
+  "datasetVersion": "flex-psi69-v5-table-v1-subset-1",
+  "datasetFile": "flex.json",
+  "datasetSha256": "df399d7bfef9713add4ffed79c09948992eb7afe6c7670ab28dfce88b9b0477a",
+  "source": {
+    "id": "psi-69-flex-table-v1",
+    "accession": "PSI-69",
+    "investigationUrl": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69",
+    "investigationVersion": 5,
+    "doi": "10.60555/mbq8-0451",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+    "fileName": "PSI-69_Experimental table_FLEX.csv",
+    "fileVersion": 1,
+    "repositoryObjectPath": "psi-data/PSI-69/Experimental table/PSI-69_Experimental table_FLEX.csv",
+    "repositoryObjectVersion": "TParjCiGvSeDqRYFafCSaXSv1jLiimyd",
+    "sizeBytes": 24776,
+    "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96",
+    "encoding": "windows-1252",
+    "dataRows": 274
+  },
+  "selection": {
+    "rule": "Consecutive FLEX test numbers 1 through 31 inclusive, matching the first page of Table IX",
+    "runCount": 31,
+    "fieldsPerRun": 11,
+    "unknownFields": 30,
+    "reviewDate": "2026-11-11",
+    "reviewMethod": "Checked PSI rows against NASA Technical Publication Table IX for identifiers, fuels, numeric fields, missing markers and end categories"
+  },
+  "interpretationReference": {
+    "reportNumber": "NASA/TP-2015-216046",
+    "url": "https://ntrs.nasa.gov/citations/20150023456",
+    "locations": [
+      { "section": "Appendix A.1 Summary Data", "printedPage": 19, "pdfPage": 25 },
+      { "section": "Table IX", "printedPage": 20, "pdfPage": 26 }
+    ]
+  },
+  "transforms": {
+    "original": "Preserve CSV cell text. Empty cells are stored as null.",
+    "value": "Trim surrounding whitespace, map blanks and dash markers to null, and parse finite numeric values without scaling or rounding the source text.",
+    "locator": "CSV rows and spreadsheet column letters start at 1. The header occupies row 1.",
+    "burning_rate": "Use mm²/s from Table IX. The literal PSI CSV header is Burning rate; mm.",
+    "gas_labels": "Use O₂, N₂, CO₂ and He species from Table IX. Keep mole fractions as fractions.",
+    "extinction_diameter": "The reported quantity is droplet diameter at visible flame extinction. Appendix A.1 describes estimates for some tests. The selected PSI columns do not identify which individual values were estimated."
+  }
+}
